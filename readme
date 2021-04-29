@@ -1,0 +1,9 @@
+providers[] il s'agit d'un fourniseur
+quand on appelle un module le module appele ses composants
+bootstrap: [appComponent]
+imports : [] nous permet d'importer les dependances dont on a besoins
+declarations: [] nous permet de declarer nos module
+
+selector: permet de dire quel est l'appelation de notre component
+templateurl: angular l'utilise pour afficher le html avec le appComponent.html
+le feuille du style du composant domine toujours sur le feuille de style general
